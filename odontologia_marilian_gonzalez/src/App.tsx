@@ -11,10 +11,12 @@ function App() {
   return (
     <>
       <Header/>
+      <div className='main'>
       <IntroArticle/>
       <SloganArticle/>
       <EspecialidadesArticle/>
       <FilosofiaArticle/>
+      </div>
       <Footer/>
     </>
   )

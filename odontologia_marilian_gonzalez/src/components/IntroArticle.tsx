@@ -3,6 +3,7 @@ import "../sytles/IntroArticle.css"
 
 const IntroArticle = () => {
   return (
+    <div className='introArticleContainer'>
     <div className='introArticle'>
         <div className='introArticleCard'>
         <div className ="introArticleCardTitle">
@@ -12,6 +13,7 @@ const IntroArticle = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt eum temporibus iusto doloribus quisquam molestiae harum veniam distinctio necessitatibus consequatur? .
         </div>
         </div>
+    </div>
     </div>
   )
 }

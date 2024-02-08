@@ -1,0 +1,28 @@
+.barraMenuContainer:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.menuDisplayed{
+    display: none;
+    transform: translateY(0);
+}
+
+.menuDisplayedVisible{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 101px;
+    right: 0;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+    height: 80vh;
+    width: 40vw;
+    align-items: center;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
