@@ -1,0 +1,13 @@
+.socialIcons img {
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Maintain aspect ratio */
+  }
+  
+.rights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    background-color:#F5E1CE;
+    height: 50px;
+}

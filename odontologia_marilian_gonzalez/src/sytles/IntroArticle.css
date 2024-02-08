@@ -1,0 +1,26 @@
+.introArticle{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    background-image: url("../assets/image4.png");
+    background-size: 100% 100%;
+    height: 240px;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.introArticleCard{
+    height: 80%;
+    width: 50%;
+    position: absolute;
+    background-color: rgba(245, 225, 206, 0.4);
+    border-radius: 10px;
+}
+
+.introArticleCardTitle{
+    font-weight: bold;
+    margin-bottom: 10px;
+}

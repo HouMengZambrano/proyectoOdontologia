@@ -1,0 +1,4 @@
+.especialidadesBotones{
+    display: flex;
+    flex-direction: column;
+}

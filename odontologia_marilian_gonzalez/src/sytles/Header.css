@@ -1,0 +1,27 @@
+.header{
+    width: 100vw;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FCFEFF;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.imgLogo{
+    height: 100px;
+    width: 251.26px;
+}
+
+.barraMenu{
+    color:#C89518;
+    height: 50px;
+    width: 50px;
+}
+
+.cajaMenu{
+    display: flex;
+    align-items: center;
+    background-color: #FCFEFF;
+}
+
