@@ -1,14 +1,17 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
+type EspecialidadBotonProps ={
+  nombre: string;
+  targetId: string;
+}
 
-const EspecialidadBoton = () => {
-
+const EspecialidadBoton: React.FC<EspecialidadBotonProps> = ({ nombre, targetId}) => {
 
   return (
-    <button>
-        Especialidad odontologica
-    </button>
+    <Link to={`/especialidad#${targetId}`} className="especialidadButton">
+      {nombre}
+    </Link>
   )
 }
 

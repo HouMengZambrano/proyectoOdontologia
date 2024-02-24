@@ -1,12 +1,13 @@
 import React from 'react'
 
 type TarjetaEspeciadadProp = {
+    id: string;
     nombre: string;
     descripcion: string;
     imagenUrl: string;
 }
 
-const TarjetaEspecialidad: React.FC<TarjetaEspeciadadProp> = ({nombre, descripcion, imagenUrl,id}) => {
+const TarjetaEspecialidad: React.FC<TarjetaEspeciadadProp> = ({id,nombre, descripcion, imagenUrl}) => {
   return (
     <div id={id}>
         <h1>{nombre}

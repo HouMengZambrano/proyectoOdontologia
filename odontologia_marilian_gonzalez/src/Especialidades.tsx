@@ -11,19 +11,19 @@ const Especialidad = () => {
         <Header/>
         <Article title='Especialidades' textContent= 'Mensaje que haga saber todo lo que have va en pro de mejorar la salud bucal'/>
         <div className='contenedorEspecialidades'>
-          <TarjetaEspecialidad  nombre="Odontologia General" descripcion='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt eum temporibus iusto doloribus quisquam molestiae harum veniam distinctio necessitatibus consequatur? .'
+          <TarjetaEspecialidad id="1" nombre="Odontologia General" descripcion='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt eum temporibus iusto doloribus quisquam molestiae harum veniam distinctio necessitatibus consequatur? .'
           imagenUrl={imgEspecialidad}
           />
-          <TarjetaEspecialidad  nombre="Cirugia Bucal" descripcion='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt eum temporibus iusto doloribus quisquam molestiae harum veniam distinctio necessitatibus consequatur? .'
+          <TarjetaEspecialidad id="2" nombre="Cirugia Bucal" descripcion='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt eum temporibus iusto doloribus quisquam molestiae harum veniam distinctio necessitatibus consequatur? .'
           imagenUrl={imgEspecialidad}
           />
-          <TarjetaEspecialidad  nombre="Ortodoncia" descripcion='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt eum temporibus iusto doloribus quisquam molestiae harum veniam distinctio necessitatibus consequatur? .'
+          <TarjetaEspecialidad id="3" nombre="Ortodoncia" descripcion='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt eum temporibus iusto doloribus quisquam molestiae harum veniam distinctio necessitatibus consequatur? .'
           imagenUrl={imgEspecialidad}
           />
-          <TarjetaEspecialidad  nombre="Estetica y Rehabilitacion" descripcion='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt eum temporibus iusto doloribus quisquam molestiae harum veniam distinctio necessitatibus consequatur? .'
+          <TarjetaEspecialidad id="4" nombre="Estetica y Rehabilitacion" descripcion='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt eum temporibus iusto doloribus quisquam molestiae harum veniam distinctio necessitatibus consequatur? .'
           imagenUrl={imgEspecialidad}
           />
-          <TarjetaEspecialidad  nombre="Implantologia" descripcion='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt eum temporibus iusto doloribus quisquam molestiae harum veniam distinctio necessitatibus consequatur? .'
+          <TarjetaEspecialidad id="5" nombre="Implantologia" descripcion='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt eum temporibus iusto doloribus quisquam molestiae harum veniam distinctio necessitatibus consequatur? .'
           imagenUrl={imgEspecialidad}
           />
         </div>

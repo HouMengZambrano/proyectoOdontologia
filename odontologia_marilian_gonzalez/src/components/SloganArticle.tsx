@@ -1,5 +1,5 @@
 import React from 'react'
-import SolicitarTurnoBoton from './solicitarTurnoBoton'
+import SolicitarTurnoBoton from './SolicitarTurnoBoton'
 
 
 const SloganArticle = () => {
