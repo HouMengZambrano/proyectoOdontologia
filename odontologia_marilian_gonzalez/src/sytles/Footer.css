@@ -21,9 +21,11 @@
 
   
 .rights{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 12px;
     background-color:#F5E1CE;
     height: 50px;

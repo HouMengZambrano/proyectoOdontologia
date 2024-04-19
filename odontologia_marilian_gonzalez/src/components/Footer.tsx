@@ -17,7 +17,7 @@ const Footer = () => {
             </span>
         </div>
         <div className='rights'>
-            <span>© 2024 by Marilyan Gonzalez - Todos los derechos Reservados</span>
+            <span>© 2024 by Marilyan Gonzalez-Todos los derechos Reservados</span>
         </div>
     </div>
   )
