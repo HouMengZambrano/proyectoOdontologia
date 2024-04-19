@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaWhatsapp } from 'react-icons/fa';
+import '../sytles/SolicitarTurnoButton.css'
 
 const SolicitarTurnoBoton:React.FC = () => {
   const handleClick =()=>{
@@ -6,8 +8,9 @@ const SolicitarTurnoBoton:React.FC = () => {
   }
 
   return (
-    <button onClick={handleClick}>
-        Solicitar turno
+    <button onClick={handleClick} className="solicitarTurnoBtn" >
+        <FaWhatsapp className='whatsappIcon'/>
+        <span>Solicitar Turno</span>
     </button>
   )
 }

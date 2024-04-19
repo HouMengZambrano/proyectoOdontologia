@@ -1,5 +1,6 @@
 import React from 'react'
 import filosofiaImg from "../assets/image1.png"
+import '../sytles/FilosofiaArticle.css'
 
 const FilosofiaArticle = () => {
   return (

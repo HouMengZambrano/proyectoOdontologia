@@ -1,8 +1,24 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+}
 
-.sohcialIcons img {
-    width: 20px; /* Adjust the width as needed */
-    height: 20px; /* Maintain aspect ratio */
-  }
+.socialMedia{
+  display: flex;
+  font-size: 20px;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.socialMedia .socialIcons{
+  display: flex;
+}
+.socialMedia .socialIcons img{
+  width: 20px;
+  margin-right: 10px;
+  border-radius: 50%
+}
+
   
 .rights{
     display: flex;

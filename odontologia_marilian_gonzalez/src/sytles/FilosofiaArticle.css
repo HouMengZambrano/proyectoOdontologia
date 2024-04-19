@@ -1,0 +1,20 @@
+.filosofiaArticle{
+    margin-top: 60px;
+    background-color: rgba(245, 225, 206, 0.2);
+}
+
+.filosofiaArticle h2{
+    margin: 0px;
+    font-size: 35px;
+}
+.filosofiaArticle h3{
+    font-size: 30px;
+}
+.filosofiaArticle p{
+    font-size: 25px;
+}
+
+.filosofiaArticle img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
