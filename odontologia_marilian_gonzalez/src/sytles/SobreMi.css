@@ -1,3 +1,26 @@
 .sobreMi{
     margin-top: 120px;
 }
+
+.sobreMi h1{
+    color: #C89518;
+}
+
+.sobreMiCard{
+    padding: 5px;
+}
+.sobreMiArticle img{
+    height: 80vw;
+    width: 100%;
+}
+.sobreMiArticle{
+    padding: 10px;
+}
+.sobreMiArticle h3{
+font-size: 22px;
+font-weight: lighter;
+}
+
+.sobreMiArticle p{
+    font-size: 20px;
+}

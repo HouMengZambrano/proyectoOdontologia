@@ -9,11 +9,8 @@ export const SobreMi = () => {
     <div>
     <Header/>
     <div className='sobreMi'>
-    <div>
-        <h1>Marilian Gonzales</h1>
-        <img src={sobreMiImg} alt ="sobremiImg"></img>
-    </div>
-    <div>
+    <div className ='sobreMiArticle'>
+      <img src={sobreMiImg} alt ="sobremiImg"></img>
         <h3>Odontologo Marilian Gonzales</h3>
         <h3>Graduada de la Universidad de los Andes</h3>
         <h3>Especialida en Ortodoncia y Estetica dental</h3>
