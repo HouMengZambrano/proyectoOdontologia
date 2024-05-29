@@ -15,7 +15,7 @@ const Article: React.FC<ArticleProps>= ({title, textContent}) => {
                 <img src = {articleImg} alt= "articleImg" width={100}></img>
             </div>
             <div>
-                <h1>{title}</h1>
+                <h2>{title}</h2>
                 <p>
                     {textContent}
                 </p>

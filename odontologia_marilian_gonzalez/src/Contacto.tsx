@@ -10,29 +10,33 @@ const Contacto = () => {
     <div>
         <Header/>
         <div className='contacto_article_1'>
-            <Article title="Turno y Contacto" textContent="Para solicitar un turno o realizar una consulta, mandar un mensaje a nuestro numero de whastApp"></Article>
+            <Article title="Turno y Contacto" textContent="Para solicitar un turno o realizar una consulta, mándanos un mensaje a nuestro número de WhatsApp y la doctora te responderá personalmente."></Article>
             <div>
                 <h3>
                     Horarios de atención
                 </h3>
                 <p>
-                     Lunes a Sabado de 9 am a 8pm
+                Lunes a Viernes: de 10 a 19hs
                 </p>
+                <p>
+                Sabado: de 10 a 16hs
+                </p>
+                
             </div>
             <div>
                 <h3>
                     WhatsApp
                 </h3>
                 <p>
-                     +549111234567
+                     +54 911 34263038
                 </p>
             </div>
             <div>
                 <h3>
-                    Dirección del Consultorio
+                    Dirección
                 </h3>
                 <p>
-                    Monroe 2341, oficina 3
+                    Monroe 2341, oficina 3, Belgrano, CABA.
                 </p>
             </div>
             <GoogleMap/>

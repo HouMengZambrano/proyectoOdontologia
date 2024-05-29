@@ -8,8 +8,7 @@ const SloganArticle = () => {
     <div className='sloganArticle'>
     <div className='slogan'>
         <h2>
-           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        !Diseñemos la sonrisa que mereces!
         </h2>
         <SolicitarTurnoBoton/>
     </div>   

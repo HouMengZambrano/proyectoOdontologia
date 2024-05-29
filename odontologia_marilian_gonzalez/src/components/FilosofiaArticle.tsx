@@ -6,9 +6,10 @@ const FilosofiaArticle = () => {
   return (
     <div className='filosofiaArticle'>
         <h2>Filosofia de Trabajo</h2>
-        <h3>Subtitulo Frase</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla nisi suscipit explicabo dolorum neque libero doloremque delectus incidunt, molestias veritatis possimus ex unde quia soluta tenetur, enim error et vitae!
-        Cumque corrupti excepturi adipisci? Minima earum fuga tempore necessitatibus voluptatum nesciunt, veritatis in sint pariatur modi nemo voluptate labore consequuntur! Natus veniam recusandae amet officiis mollitia error tempora odit perferendis.</p>
+        <h3>Empatía, Ciencia y Arte en un Solo Lugar</h3>
+        <p>
+        "Proveniente de una familia dedicada al servicio de la salud, siempre he creído en combinar mi pasión por la salud y el arte en una destreza manual para brindar cuidados de calidad. Con paciencia, empatía y un enfoque centrado en ti, trabajo para diseñar tratamientos personalizados y ofrecer a mis pacientes sonrisas saludables y hermosas"
+        </p>
         <img src={filosofiaImg} alt="imagen de filosofiahh"></img>
     </div>
   )

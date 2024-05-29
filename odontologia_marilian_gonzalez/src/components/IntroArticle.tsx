@@ -7,10 +7,10 @@ const IntroArticle = () => {
     <div className='introArticle'>
         <div className='introArticleCard'>
         <div className ="introArticleCardTitle">
-            Odontologo Ortodoncista
+            Odontologa Marilian Gonzalez
         </div>
         <div className='introArticleCardText'>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt eum temporibus iusto doloribus quisquam molestiae harum veniam distinctio necessitatibus consequatur? .
+            Especialista destacada en el cuidado dental, con años de experiencia y un compromiso firme con la salud y estetica dental
         </div>
         </div>
     </div>
