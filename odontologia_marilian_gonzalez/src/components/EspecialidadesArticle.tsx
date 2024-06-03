@@ -10,12 +10,12 @@ const EspecialidadesArticle = () => {
     <div className='especialidadesBotones'>
     
     <EspecialidadBoton  nombre = "Odontologia General" targetId='1'/>
-    <EspecialidadBoton  nombre = "Cirugia Bucal" targetId='2'/>
-    <EspecialidadBoton  nombre = "Ortodoncia y Rehabilitacion" targetId='3'/>
-    <EspecialidadBoton  nombre = "Estetica y Blanquiamiento Dentales" targetId='4'/>
-    <EspecialidadBoton  nombre = "Odontopediatria" targetId='5'/>
-    <EspecialidadBoton  nombre = "Endodoncia" targetId='6'/>
-    <EspecialidadBoton  nombre = "Implantología" targetId='7'/>
+    <EspecialidadBoton  nombre = "Ortodoncia y Ortopedia" targetId='2'/>
+    <EspecialidadBoton  nombre = "Cirugía Bucal" targetId='3'/>
+    <EspecialidadBoton  nombre = "Estetica y Blanquiamientos" targetId='4'/>
+    <EspecialidadBoton  nombre = "Rehabilitación e Implantología" targetId='5'/>
+    <EspecialidadBoton  nombre = "Odontopediatria" targetId='6'/>
+    <EspecialidadBoton  nombre = "Endodoncia" targetId='7'/>
     </div>
     </div>
   )
