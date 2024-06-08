@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import Article from './components/Article'
 import TarjetaEspecialidad from './components/TarjetaEspecialidad'
 import imgEspecialidad from './assets/imagenEspecialidad.png'

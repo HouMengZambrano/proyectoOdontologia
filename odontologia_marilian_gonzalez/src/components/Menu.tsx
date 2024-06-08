@@ -1,4 +1,5 @@
-import React,{useState} from 'react'
+// import React,{useState} from 'react'
+import { useState } from "react"
 import barraMenu1 from "../assets/barra-de-menus.png"
 import barraMenu2 from "../assets/x.png"
 import "../sytles/Menu.css"

@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import "../sytles/Footer.css"
 import facebookLogo from "../assets/facebook.png"
 import tiktokLogo from "../assets/tik-tok.png"

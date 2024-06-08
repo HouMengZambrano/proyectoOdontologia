@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import GoogleMap from './components/GoogleMap'
 import Footer from './components/Footer'
 import Article from './components/Article'

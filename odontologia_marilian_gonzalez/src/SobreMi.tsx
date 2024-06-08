@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import sobreMiImg from './assets/image1.png'
 import Header from './components/Header'
 import Footer from './components/Footer'

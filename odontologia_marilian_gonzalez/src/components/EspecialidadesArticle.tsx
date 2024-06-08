@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import EspecialidadBoton from './EspecialidadBoton'
 import "../sytles/EspecialidadesArticle.css"
 
