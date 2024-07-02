@@ -1,0 +1,6 @@
+.google_map_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+}

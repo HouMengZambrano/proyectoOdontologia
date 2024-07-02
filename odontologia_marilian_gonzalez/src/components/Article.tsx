@@ -10,17 +10,17 @@ type ArticleProps = {
 
 const Article: React.FC<ArticleProps>= ({title, textContent}) => {
   return (
-    <div>
+    <div className='article_container'>
         <div className = "base_article">
                 <img src = {articleImg} alt= "articleImg" width={100}></img>
-            </div>
-            <div>
-                <h2>{title}</h2>
-                <p>
-                    {textContent}
-                </p>
-            </div>
-            <SolicitarTurnoBoton/>
+          </div>
+          <div className='article_title_and_description'>
+              <h2>{title}</h2>
+              <p>
+                {textContent}
+              </p>
+          </div>
+          <SolicitarTurnoBoton/>
     </div>
   )
 }

@@ -1,3 +1,14 @@
+.article_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.article_title_and_description{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 .base_article{
     margin-top: 120px;
 }

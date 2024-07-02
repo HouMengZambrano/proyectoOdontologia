@@ -1,0 +1,19 @@
+.especialidad_tarjeta_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5E1CE;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.especialidad_tarjeta_container h1{
+    font-size: 28px;
+    color: #C89518;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.especialidad_tarjeta_container p{
+    font-size: 20px;
+    margin-bottom: 20px
+}
