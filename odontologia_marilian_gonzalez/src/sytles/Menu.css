@@ -5,7 +5,10 @@
     display: none;
     transform: translateY(0);
 }
-
+.hamburgerMenu{
+    color: #C89518;
+    font-size: 2rem;
+}
 .menuDisplayedVisible{
     display: flex;
     flex-direction: column;
@@ -17,16 +20,14 @@
     padding: 10px;
     transition: transform 0.3s ease-in-out;
     z-index: 1000;
-    height: 80vh;
-    width: 40vw;
+    height: 100vh;
     align-items: center;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
-    
 }
 
 .menuLink{
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 1rem;
     color: #C89518;
     margin-top: 20px;
     text-decoration: none;
@@ -35,6 +36,7 @@
     color: #000000;
 
 }
+
 
 
 

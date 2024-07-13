@@ -1,24 +1,28 @@
 // import React,{useState} from 'react'
 import { useState } from "react"
-import barraMenu1 from "../assets/barra-de-menus.png"
-import barraMenu2 from "../assets/x.png"
 import "../sytles/Menu.css"
 import MenuDisplayed from './MenuDisplayed'
+import { IoMdMenu } from "react-icons/io"
+import { IoClose } from "react-icons/io5"
 
 const Menu = () => {
-  const [menuSrc, SetMenuSrc] =  useState<string>(barraMenu1);
   const [displayedMenu, SetDisplayedMenu] = useState<boolean>(false)
 
   const handleClick =()=>{
-    SetMenuSrc(menuSrc === barraMenu1 ? barraMenu2 : barraMenu1)
     SetDisplayedMenu(!displayedMenu)
   }
 
   return (
     <div className='cajaMenu'>
     <div className="barraMenuContainer" onClick={handleClick}>
-    <img src={menuSrc} alt="hamburgesa" className="barraMenu">
-    </img>
+      {
+        displayedMenu?(
+          <IoClose className="hamburgerMenu"/>
+        ):
+        (
+          <IoMdMenu className="hamburgerMenu"/>
+        )
+      }
     </div>
     <MenuDisplayed isVisible={displayedMenu}/>
     </div>
