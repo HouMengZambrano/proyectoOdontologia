@@ -11,9 +11,16 @@ const Footer = () => {
         <div className='socialMedia'>
             <span>Sigueme en las redes</span>
             <span className='socialIcons'>
-            <img src={instagramLogo} alt='instagram logo'></img>
-            <img src={facebookLogo} alt='facebook logo'></img>
-            <img src={tiktokLogo}alt="tiktok logo"></img>
+            <a href="https://www.instagram.com/odmariliangonzalez/" target="_blank" rel="noopener noreferrer">
+             <img src={instagramLogo} alt='instagram logo'></img>
+            </a>
+            <a target="_self" >
+              <img src={facebookLogo} alt='facebook logo'>
+              </img>
+            </a>
+            <a target="_self">
+              <img src={tiktokLogo}alt="tiktok logo"></img>
+            </a>
             </span>
         </div>
         <div className='rights'>

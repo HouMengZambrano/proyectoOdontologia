@@ -1,21 +1,35 @@
 .filosofiaArticle{
-    margin-top: 60px;
+    margin-top: 40px;
     background-color: rgba(245, 225, 206, 0.2);
 }
 
-.filosofiaArticle h2{
-    margin: 0px;
-    font-size: 35px;
+.filosofiaArticle-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-.filosofiaArticle h3{
-    font-size: 30px;
+.filosofiaArticle-text-container h2{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.6rem
 }
-.filosofiaArticle p{
-    font-size: 25px;
+.filosofiaArticle-text-container h3{
+    margin-top: 10px;
+    font-weight:500;
+    font-size: 1.4rem
+}
+.filosofiaArticle-text-container p{
+    margin-top: 30px;
+    font-size: 1.2rem;
 }
 
-.filosofiaArticle img{
-    width: 100%;
+.filosofiaArticle-img-container{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.filosofiaArticle-img-container img{
+    width: 60vw;
     margin-top: 20px;
     margin-bottom: 20px;
 }

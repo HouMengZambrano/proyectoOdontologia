@@ -1,13 +1,13 @@
 .especialidadButton{
     background-color: #F5E1CE;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.4rem;
     text-decoration: none;
     color: black;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 10px;
     cursor: pointer;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }

@@ -1,11 +1,13 @@
-.especialidadesBotones{
-    display: flex;
-    flex-direction: column;
-}
-
 .especialidadesArticle{
     margin-top: 40px
 }
 .especialidadesArticle h2{
-    font-size: 35px;
+    font-size: 1.8rem;
 }
+.especialidadesBotones{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
