@@ -7,10 +7,11 @@ const IntroArticle = () => {
     <div className='introArticle'>
         <div className='introArticleCard'>
         <div className ="introArticleCardTitle">
-            Odontologa Marilian Gonzalez
+            <span>Odontologa </span>
+            <span>Marilian Gonzalez</span>
         </div>
         <div className='introArticleCardText'>
-            Especialista destacada en el cuidado dental, con años de experiencia y un compromiso firme con la salud y estetica dental
+            Especialista destacada en el cuidado dental, con años de experiencia y un compromiso firme con la salud y estetica dental.
         </div>
         </div>
     </div>
