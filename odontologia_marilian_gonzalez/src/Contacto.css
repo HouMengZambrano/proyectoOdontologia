@@ -1,21 +1,31 @@
-.contacto_article_1 Article{
-    background-color: aqua;
+h3{
+    font-size: 1.4rem;
+    margin: 1rem 0rem 0.5rem 0rem;
 }
+
+p{
+    font-size: 1.2rem;
+}
+
 .contacto_informacion_1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0.5rem 0rem;
 }
 .contacto_informacion_2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding:0.5rem 0rem;
 }
 .contacto_informacion_3{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0.5rem 0rem;
 }
+

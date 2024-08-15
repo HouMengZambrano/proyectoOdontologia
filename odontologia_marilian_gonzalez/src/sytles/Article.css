@@ -4,9 +4,26 @@
     align-items: center;
     justify-content: center;
     margin-top: 120px;
+    padding: 2rem 0rem
 }
+
+.base_article img{
+    width: 80vw;
+}
+
 .article_title_and_description{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 1rem 0rem;
+    padding: 0rem 1rem;
+}
+
+.article_title_and_description h2{
+    font-size: 1.6rem;
+    padding: 1rem 0rem;
+}
+
+.article_title_and_description p{
+    font-size: 1.2rem;
 }
