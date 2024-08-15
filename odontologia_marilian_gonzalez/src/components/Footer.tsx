@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div className='socialMedia'>
-            <span>Sigueme en las redes</span>
+            <span>Sigueme en las redes.</span>
             <span className='socialIcons'>
             <a href="https://www.instagram.com/odmariliangonzalez/" target="_blank" rel="noopener noreferrer">
              <img src={instagramLogo} alt='instagram logo'></img>
