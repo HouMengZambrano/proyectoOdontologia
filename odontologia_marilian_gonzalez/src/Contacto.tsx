@@ -37,7 +37,7 @@ const Contacto = () => {
                     Dirección
                 </h3>
                 <p>
-                    Monroe 2341, oficina 3, Belgrano, CABA.
+                    Monroe 2341, oficina 3A, Belgrano, CABA.
                 </p>
             </div>
             <GoogleMap/>
