@@ -4,8 +4,33 @@ import TarjetaEspecialidad from './components/TarjetaEspecialidad'
 import imgEspecialidad from './assets/imagenEspecialidad.png'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import { useEffect, useRef } from 'react'
+import { useLocation } from 'react-router-dom'
+
 
 const Especialidad = () => {
+  const location = useLocation()
+  const query = new URLSearchParams(location.search)
+  const especialidad = query.get('id')
+
+  const especialidadRef = useRef<HTMLDivElement>(null)
+
+  const scrollToEspecialidad = (id: string | null) =>{
+    switch(id){
+      case '7':
+        especialidadRef.current?.scrollIntoView({
+          behavior: 'smooth'
+        });
+        break;
+      default:
+        break;
+    }
+  }
+
+  useEffect(()=>{
+    scrollToEspecialidad(especialidad);
+  }, [especialidad])
+
   return (
     <div>
         <Header/>
@@ -31,6 +56,7 @@ const Especialidad = () => {
           />
           <TarjetaEspecialidad id="7" nombre="Endodoncia" descripcion='Nuestros tratamientos de endodoncia se enfocan en el cuidado de la pulpa dental y los conductos, asegurando la salud y el bienestar de tus dientes desde adentro hacia afuera. '
           imagenUrl={imgEspecialidad}
+          ref={especialidadRef}
           />
         </div>
         <Footer/>

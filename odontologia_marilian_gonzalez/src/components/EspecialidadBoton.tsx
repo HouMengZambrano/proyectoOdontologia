@@ -10,7 +10,11 @@ type EspecialidadBotonProps ={
 const EspecialidadBoton: React.FC<EspecialidadBotonProps> = ({ nombre, targetId}) => {
 
   return (
-    <Link to={`/especialidad#${targetId}`} className="especialidadButton">
+    <Link key={targetId}
+    to={{
+      pathname: '/especialidad',
+      search: `?id=${targetId}`,
+    }} className="especialidadButton">
       {nombre}
     </Link>
   )

@@ -1,4 +1,4 @@
-import React from 'react'
+import { forwardRef } from 'react';
 import "../sytles/TarjetaEspecialidad.css"
 
 type TarjetaEspeciadadProp = {
@@ -6,21 +6,20 @@ type TarjetaEspeciadadProp = {
     nombre: string;
     descripcion: string;
     imagenUrl: string;
-}
+};
 
-const TarjetaEspecialidad: React.FC<TarjetaEspeciadadProp> = ({id,nombre, descripcion, imagenUrl}) => {
-  return (
-    <div id={id} className='especialidad_tarjeta_container'>
-        <h1>{nombre}
-        </h1>
-        <p>
-            {descripcion}
-        </p>
+const TarjetaEspecialidad = forwardRef<HTMLDivElement, TarjetaEspeciadadProp>(
+  ({ id, nombre, descripcion, imagenUrl }, ref) => {
+    return (
+      <div ref={ref} id={id} className='especialidad_tarjeta_container'>
+        <h1>{nombre}</h1>
+        <p>{descripcion}</p>
         <div className='especialidad_img_container'>
-        <img src={imagenUrl} alt= {`${nombre} img`}></img>
+          <img src={imagenUrl} alt={`${nombre} img`} />
         </div>
-    </div>
-  )
-}
+      </div>
+    );
+  }
+);
 
-export default TarjetaEspecialidad
+export default TarjetaEspecialidad;
